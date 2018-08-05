@@ -25,7 +25,7 @@ git clone https://github.com/seebi/tmux-colors-solarized ~/.tmux/tmux-colors-sol
 cat ~/.tmux/tmux-colors-solarized/tmuxcolors-256.conf >> ~/.tmux.conf
 
 # Vim
-mkdir -p .vim/{autoload,colors,syntax,plugin,spell,config}
+mkdir -p ~/.vim/{autoload,colors,syntax,plugin,spell,config}
 # vimrc
 cat ~/dotfiles/.vimrc > ~/.vimrc
 # Pathogen
