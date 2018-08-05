@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# Essentials
-sudo apt-get install git cmake build-essential python-dev -y
-
+./essential.sh
 ./zsh.sh
 ./tmux.sh
 ./vim-plugins.sh
