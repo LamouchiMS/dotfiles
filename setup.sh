@@ -1,15 +1,29 @@
 #!/bin/bash
 
+# Essentials
+sudo apt-get install git
+sudo apt-get install cmake build-essential
+sudo apt-get install node npm
+sudo apt-get install golang-go
+
+# Java
+sudo apt-get install default-jre default-jdk
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-set-default
+
 # Install Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # zshrc
 cat ~/dotfiles/.zshrc > ~/.zshrc
+reset
 
-# Get tmux color scheme
-git clone https://github.com/seebi/tmux-colors-solarized
-cat tmux-colors-solarized/tmuxcolors-256.conf >> ~/.tmux.conf
+# Tmux
+mkdir -p ~/.tmux
+git clone https://github.com/seebi/tmux-colors-solarized ~/.tmux/tmux-colors-solarized
+cat ~/.tmux/tmux-colors-solarized/tmuxcolors-256.conf >> ~/.tmux.conf
 
-# Configure Vim
+# Vim
 mkdir -p .vim/{autoload,colors,syntax,plugin,spell,config}
 # vimrc
 cat ~/dotfiles/.vimrc > ~/.vimrc
