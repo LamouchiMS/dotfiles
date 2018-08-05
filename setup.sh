@@ -53,3 +53,5 @@ cd
 # Tsuquyomi (Typescript)
 git clone https://github.com/Quramy/tsuquyomi.git ~/.vim/bundle/tsuquyomi
 
+reset
+
