@@ -29,4 +29,12 @@ git clone https://github.com/leafgarland/typescript-vim ~/.vim/bundle/typescript
 git clone https://github.com/pangloss/vim-javascript ~/.vim/bundle/vim-javascript
 # CtrlP
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+# YouCompleteMe
+git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
+cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
+./install.py --all
+cd
+# Tsuquyomi (Typescript)
+git clone https://github.com/Quramy/tsuquyomi.git ~/.vim/bundle/tsuquyomi
 
