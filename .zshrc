@@ -6,7 +6,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_172`
 export EFLOW_CONFIG=$HOME/.eflow.config.json
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/molamk/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -114,7 +114,7 @@ alias ngen="~/code/bash/ngen"
 alias k="kubectl"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/molamk/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/molamk/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '~/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '~/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/molamk/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/molamk/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '~/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '~/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
