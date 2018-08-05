@@ -2,15 +2,6 @@
 
 # Essentials
 sudo apt-get install git cmake build-essential python-dev -y
-# sudo apt-get install node npm -y
-# sudo apt-get install golang-go -y
-# sudo apt-get install language-pack-en -y
-#
-# # Java
-# sudo apt-get install default-jre default-jdk -y
-# sudo add-apt-repository ppa:webupd8team/java -y
-# sudo apt-get update -y
-# sudo apt-get install oracle-java8-set-default -y
 
 # Install Zsh
 sudo apt-get install zsh
@@ -44,14 +35,16 @@ git clone https://github.com/leafgarland/typescript-vim ~/.vim/bundle/typescript
 git clone https://github.com/pangloss/vim-javascript ~/.vim/bundle/vim-javascript
 # CtrlP
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+#Tsuquyomi (Typescript)
+git clone https://github.com/Quramy/tsuquyomi.git ~/.vim/bundle/tsuquyomi
 # YouCompleteMe
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
+
+# YouCompleteMe setup
 cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.py --all
 cd
-# Tsuquyomi (Typescript)
-git clone https://github.com/Quramy/tsuquyomi.git ~/.vim/bundle/tsuquyomi
 
 reset
 
