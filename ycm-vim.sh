@@ -6,6 +6,6 @@ git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouComplet
 # YouCompleteMe setup
 cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
-./install.py --all
+./install.py
 cd
 
