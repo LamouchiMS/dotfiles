@@ -16,4 +16,4 @@ git clone https://github.com/pangloss/vim-javascript ~/.vim/bundle/vim-javascrip
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 # YouCompleteMe
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
-c
+
