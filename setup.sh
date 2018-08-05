@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # Essentials
-sudo apt-get install language-pack-en -y
-sudo apt-get install git -y
-sudo apt-get install cmake build-essential -y
+sudo apt-get install git cmake build-essential python-dev -y
 # sudo apt-get install node npm -y
 # sudo apt-get install golang-go -y
+# sudo apt-get install language-pack-en -y
 #
 # # Java
 # sudo apt-get install default-jre default-jdk -y
@@ -14,7 +13,9 @@ sudo apt-get install cmake build-essential -y
 # sudo apt-get install oracle-java8-set-default -y
 
 # Install Zsh
+sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# Password is: vagrant
 # zshrc
 cat ~/dotfiles/.zshrc > ~/.zshrc
 
