@@ -4,20 +4,19 @@
 sudo apt-get install language-pack-en -y
 sudo apt-get install git -y
 sudo apt-get install cmake build-essential -y
-sudo apt-get install node npm -y
-sudo apt-get install golang-go -y
-
-# Java
-sudo apt-get install default-jre default-jdk -y
-sudo add-apt-repository ppa:webupd8team/java -y
-sudo apt-get update -y
-sudo apt-get install oracle-java8-set-default -y
+# sudo apt-get install node npm -y
+# sudo apt-get install golang-go -y
+#
+# # Java
+# sudo apt-get install default-jre default-jdk -y
+# sudo add-apt-repository ppa:webupd8team/java -y
+# sudo apt-get update -y
+# sudo apt-get install oracle-java8-set-default -y
 
 # Install Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # zshrc
 cat ~/dotfiles/.zshrc > ~/.zshrc
-reset
 
 # Tmux
 mkdir -p ~/.tmux

@@ -233,7 +233,7 @@ map <C-l> <C-W>l
 map <C-\> :vsplit
 
 " TsuImport
-map <C-i> :TsuImport
+map <C-t> :TsuImport
 
 " Close the current buffer
 map <leader>bd :Bclose<cr>:tabclose<cr>gT
