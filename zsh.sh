@@ -6,4 +6,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Password is: vagrant
 # zshrc
 cat ~/dotfiles/.zshrc > ~/.zshrc
-
+# Make it default
+chsh -s $(which zsh)
