@@ -5,7 +5,7 @@
 ./tmux.sh
 ./vim-plugins.sh
 # ./ycm-vim.sh
-./dev-tools.sh
+# ./dev-tools.sh
 
 reset
 
